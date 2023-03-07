@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.idCardContainer{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 2rem;
+}
+
+.infos {
+  text-align: left;
+  line-height: 0.6;
+  font-size: 12px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.imgIdCard {
+  margin: 0.2rem;
+}
+
+.boxColor {
+  width: 20rem;
+  height: 5rem;
+}
+
+.boxColor p {
+  text-align: center;
+}
